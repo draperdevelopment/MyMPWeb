@@ -13,8 +13,11 @@ function App() {
       <div className="titleSection">
         <h1 className="title">Follow MPs and get notified when they vote</h1>
       </div>
-      <div id="app-store-badges" style={{ marginTop: "5vh" }}>
-        <AppStoreBadges height={"6vh"} />
+      <div
+        id="app-store-badges"
+        style={{ marginTop: "50px", marginBottom: "50px" }}
+      >
+        <AppStoreBadges height={"12vw"} />
       </div>
       <ImageSection
         title="View Your MP's Profile"

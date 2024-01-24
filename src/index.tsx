@@ -9,6 +9,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import ScrollToTop from "./components/ScrollToTop";
 
 const AppContainer = () => {
   const [isAppStoreBadgesVisible, setIsAppStoreBadgesVisible] = useState(true);
@@ -31,6 +32,7 @@ const AppContainer = () => {
 
   return (
     <HashRouter>
+      <ScrollToTop />
       <Header appStoreBadgesOpacity={isAppStoreBadgesVisible ? 0 : 1} />
       <Routes>
         <Route path="/" element={<App />} />

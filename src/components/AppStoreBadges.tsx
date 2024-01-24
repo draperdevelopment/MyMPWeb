@@ -4,12 +4,14 @@ import appStoreBadge from "../images/appStoreBadge.svg";
 
 interface AppStoreBadgesProps {
   height: string;
+  maxHeight?: string;
 }
 
 const AppStoreBadges: React.FC<AppStoreBadgesProps> = (props) => {
   const appStoreBadgeStyle: React.CSSProperties = {
     height: props.height,
     pointerEvents: "none",
+    maxHeight: props.maxHeight || "80px",
   };
 
   return (

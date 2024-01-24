@@ -10,13 +10,13 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = (props) => {
   const headerStyle: React.CSSProperties = {
-    minHeight: "7vh",
+    height: "70px",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    paddingLeft: "1vw",
-    paddingRight: "1vw",
+    paddingLeft: "3vw",
+    paddingRight: "3vw",
     borderBottom: "0.1px solid #282c34",
     position: "sticky",
     top: 0,
@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = (props) => {
   };
 
   const imageStyle: React.CSSProperties = {
-    height: "5vh",
+    height: "50px",
     pointerEvents: "none",
     borderRadius: "50%",
   };
@@ -54,7 +54,7 @@ const Header: React.FC<HeaderProps> = (props) => {
           props.appStoreBadgesOpacity === 1 ? "visible" : ""
         }`}
       >
-        <AppStoreBadges height={"5vh"} />
+        <AppStoreBadges height={"10vw"} maxHeight="50px" />
       </div>
     </header>
   );
