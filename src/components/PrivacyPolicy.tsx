@@ -22,7 +22,7 @@ const PrivacyPolicy: React.FC = () => {
       <div style={textContainerStyle}>
         <h1>Privacy Policy for MyMP</h1>
         <br />
-        <p>Last updated: 12/01/2024</p>
+        <p>Last updated: 29/01/2024</p>
         <br />
         <h3>Introduction</h3>
         <br />
@@ -42,6 +42,7 @@ const PrivacyPolicy: React.FC = () => {
         <br />
         <ul>
           <li>Your email address</li>
+          <li>Your name</li>
         </ul>
         <br />
         <p>
@@ -86,6 +87,14 @@ const PrivacyPolicy: React.FC = () => {
           you to review this page periodically for any changes. We will notify
           you of any changes by posting the new Privacy Policy on this page.
           These changes are effective immediately after they are posted.
+        </p>
+        <br />
+        <h3>Account deletion</h3>
+        <br />
+        <p>
+          You can delete your account and any stored information related to you
+          by going to the My Profile tab, pressing the settings button in the
+          top right, and then selecting option to delete your account.
         </p>
         <br />
         <h3>Contact Us</h3>
