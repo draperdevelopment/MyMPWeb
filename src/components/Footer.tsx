@@ -36,6 +36,10 @@ const Footer: React.FC = () => {
         <Link to="/privacy" style={linkStyle}>
           Privacy Policy
         </Link>
+        <br />
+        <Link to="/support" style={linkStyle}>
+          Support
+        </Link>
         <p>© 2024 Draper Development</p>
       </div>
     </div>

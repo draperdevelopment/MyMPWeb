@@ -10,6 +10,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import ScrollToTop from "./components/ScrollToTop";
+import Support from "./components/Support";
 
 const AppContainer = () => {
   const [isAppStoreBadgesVisible, setIsAppStoreBadgesVisible] = useState(true);
@@ -37,6 +38,7 @@ const AppContainer = () => {
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/support" element={<Support />} />
       </Routes>
       <Footer />
     </HashRouter>
